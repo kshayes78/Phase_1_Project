@@ -13,6 +13,8 @@ function getAllSuperheroes() {
     });
 }
 
+console.log("test log");
+
 function createImageTags(heroObj) {
   const images = document.querySelector("#hero-images");
   const heroImg = document.createElement("img");
