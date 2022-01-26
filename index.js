@@ -16,10 +16,9 @@ function getAllSuperheroes() {
 function createImageTags(heroObj) {
   const images = document.querySelector("#hero-images");
   const heroImg = document.createElement("img");
-  heroImg.src = heroObj.images.lg;
+  heroImg.src = heroObj.images.sm;
   images.append(heroImg);
 }
-
 span.addEventListener("click", clickHero);
 function clickHero() {
   const image = document.createElement("img");

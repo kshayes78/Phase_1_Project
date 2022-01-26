@@ -11,17 +11,26 @@
   </head>
 
   <body>
+    <!--A Cool Light Bar-->
+    <div class="neon-light"></div>
     <header>
       <!--Page title-->
       <h1>SUPERHERO OF THE DAY</h1>
     </header>
-
-    <!--A Cool Light Bar-->
-    <div class="neon-light"></div>
-
+    
+    
     <!--Superhero List-->
    
-   
+   <div class="dropdown">
+      <!-- <button onclick="myFunction()" class="dropbtn">Dropdown</button> -->
+      <div id="myDropdown" class="dropdown-content">
+        <ul>
+          <li>First menu item</li>
+          <li>Second menu item</li>
+          <li>Third menu item</li>
+        </ul>
+      </div>
+    </div>
 
     <!--Superhero Display-->
     <div id="hero-detail">
@@ -30,21 +39,16 @@
         src=""
         alt="This is a placeholder"
       />
-    </div>
-
-    <div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-      <div id="myDropdown" class="dropdown-content">
-        <a href="#">Link 1</a>
-        <a href="#">Link 2</a>
-        <a href="#">Link 3</a>
-      </div>
+      <h1 id ="character-name">character name</h1>
+      <p id ="work">Hero Work</p>
     </div>
 
 
+  <span>
     <div id="hero-images">
 
     </div>
+  </span>
 
 
     <div id="hero-display"></div>
