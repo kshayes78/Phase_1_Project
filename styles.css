@@ -150,3 +150,12 @@ h3 {
 .show {
   display: block;
 }
+/* note that we can wrap the whole thing in this 
+<div class="four wide column">
+        <div class="list-container">
+          <!-- side menu -->
+          <ul class="ui divided list" id="films">
+            <!-- <li class="film item">Movie titles will go here.</li> -->
+          </ul>
+        <li>The Giant Gila Monster</li><li>Manos: The Hands Of Fate</li><li>Time Chasers</li><li>The Touch Of Satan</li><li>Santa Claus Conquers The Martians</li><li>Track Of The Moon Beast</li><li>The Skydivers</li><li>The Killer Shrews</li><li>Project Moon Base</li><li>The Giant Spider Invasion</li><li>Catalina Caper</li><li>Secret Agent Super Dragon</li><li>Wild Rebels</li><li>Danger: Diabolik</li><li>Village Of The Giants</li></div>
+      </div>

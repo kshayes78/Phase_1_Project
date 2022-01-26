@@ -13,10 +13,10 @@ function getAllSuperheroes() {
     });
 }
 
-console.log("test log");
-
 function createImageTags(heroObj) {
+  
   const images = document.querySelector("#hero-images");
+  
   const heroImg = document.createElement("img");
   heroImg.src = heroObj.images.lg;
   images.append(heroImg);
@@ -27,6 +27,7 @@ function clickHero() {
   const image = document.createElement("img");
   image.src = heroObj.images;
   heroInfo.append(image);
+  
 }
 //heroImg.addEventListener("click", function (e) {
 //const displayImg = document.querySelector(".detail-image");
